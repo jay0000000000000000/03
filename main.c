@@ -3,13 +3,17 @@
 
 int main(int argc, char *argv[])
 {
-    char c;
+    int input_a;
+    int input_b;
     
-    printf("input a character :");
-    scanf("%c", &c);
+    printf("input a inegar :");
+    scanf("%i", &input_a);
     
-    printf("The next character of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
-  
+    printf("input a integar :");
+    scanf("%i", &input_b);
+       
+    float result = (float)input_a/ input_b;
+    printf(" result is %f\n ", result);    
   system("PAUSE");	
   return 0;
 }
